@@ -18,6 +18,7 @@ Create slideshows as journalentries and show them to your players:
 
 ## Editor functions
 - Right click on an existing slide to add a new slide
+- Click into name field to change the slide name
 - Click red "x" to delete slides
 - Drag a slide to a new position to change ordering
 - Drag playlist or journal entries onto the drop-zones of a slide. 
