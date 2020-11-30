@@ -1,0 +1,35 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <input name="name" type="text" value="{{entity.name}}" placeholder="Entry Title"/>
+
+    <select name="folder">
+        {{#select entity.folder}}
+        <option value=""></option>
+        {{#each folders}}
+        <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+        {{/select}}
+    </select>
+    <input type="hidden" name="content" id="content" value="{{entity.content}}">
+   
+    <div class="slideshoweditor">
+    
+        <div style="position:relative;z-index:99999999">
+            
+            <div class="dropdown" style="position:absolute;top:0;left:0">
+                <div id="dropdown" class="dropdown-content" style="position:relative;display:none">
+                    <div><a href="#" data-action="addbefore">Add Slide before</a></div>
+                    <div><a href="#" data-action="addbehind">Add Slide behind</a></div>
+                    
+                
+                </div>
+            </div>
+        </div>
+        <div><p>Right-click on any entry to add slides. Drop Playlist-Entries (Audio) or JournalEntries on drop zones <i class="fas fa-expand"></i>.</p></div>
+        <div id="myholder"></div>
+    </div>
+
+    {{#if editable}}
+    <button type="submit" name="submit"><i class="fas fa-feather-alt"></i> {{ localize "JOURNAL.Submit"}}</button>
+    {{/if}}
+</form>
+

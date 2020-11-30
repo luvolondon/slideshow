@@ -1,0 +1,185 @@
+.vtt.hide #controls,
+.vtt.hide #navigation,
+.vtt.hide #hotbar,
+.vtt.hide #player-config
+{
+    display:none !important;
+}
+
+.vtt.hide #sidebar a[data-tab="combat"],
+.vtt.hide #sidebar a[data-tab="actors"],
+.vtt.hide #sidebar a[data-tab="items"],
+.vtt.hide #sidebar a[data-tab="journal"],
+.vtt.hide #sidebar a[data-tab="tables"],
+.vtt.hide #sidebar a[data-tab="compendium"],
+.vtt.hide #sidebar #chat-controls,
+.vtt.hide #notifications,
+.vtt.hide #pause,
+.vtt.hide #loading,
+.vtt.hide #board
+{
+    display:none !important;
+}
+
+.vtt.hide #sidebar [data-tab="settings"] [data-action="modules"]
+{
+    display:none !important;
+}
+
+#slideshow_slideshow {
+    
+    position:absolute;
+    width:100%;
+    height:100%;
+    
+}
+
+#slideshow_slideshow_notes.window-app .window-content {
+    background:none;
+    color:white;
+}
+
+#slideshow_slideshow_notes .controls .left {
+    font-size: 3rem;
+    cursor:pointer;
+}
+
+#slideshow_slideshow_notes .controls .right {
+    font-size: 3rem;
+    position: absolute;
+    right: 10px;
+    cursor:pointer;
+}
+
+.reveal .controls {
+   
+    bottom: 120px !important;
+    right: auto !important;
+    left: 70px !important;
+  
+}
+
+#myholder {
+    height:100%;width:100%; overflow-y: auto; overflow-x: auto;
+}
+
+.slideshoweditor {
+    height: calc(100% - 115px);
+    width:100%;
+    overflow:auto;
+}
+#paper-html-elements {
+    position: relative;
+    border: 1px solid gray;
+    display: inline-block;
+    background: transparent;
+    overflow: hidden;
+}
+#paper-html-elements svg {
+    background: transparent;
+}
+#paper-html-elements svg .link {
+    z-index: 2;
+}
+.html-element {
+    position: absolute;
+    background: #3498DB;
+    /* Make sure events are propagated to the JointJS element so, e.g. dragging works.*/
+    pointer-events: none;
+    -webkit-user-select: none;
+    border-radius: 4px;
+    border: 2px solid #2980B9;
+    box-shadow: inset 0 0 5px black, 2px 2px 1px gray;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.html-element select,
+.html-element input,
+.html-element button {
+    /* Enable interacting with inputs only. */
+    pointer-events: auto;
+}
+.html-element button.delete {
+    color: white;
+    border: none;
+    background-color: #C0392B;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: middle;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.html-element button.delete:hover {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.html-element select {
+    position: absolute;
+    right: 2px;
+    bottom: 28px;
+}
+.html-element input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    color: #333;
+    padding: 5px;
+    height: 16px;
+}
+.html-element label {
+    color: #333;
+    text-shadow: 1px 0 0 lightgray;
+    font-weight: bold;
+}
+.html-element span {
+    position: absolute;
+    top: 2px;
+    right: 9px;
+    color: white;
+    font-size: 10px;
+}
+
+.html-element .config {
+    flex-grow: 1;
+    background-color: gray;
+    margin-right: 0.3rem;
+    padding: 0.2rem;
+}
+.html-element .config.data i {
+    width: 1rem;
+}
+.html-element .config.highlight i {
+    color:green;
+}
+.html-element .dropzone i {
+    font-size:5rem;
+}
+
+.html-element .editlabel {
+    position: relative;
+    height: 1rem;
+    margin-bottom: 0.2rem;
+    background-color: lightgray;
+    width: 50%;
+}
+#dropdown div {
+    background-color:white;
+    border:1px solid black;
+    padding:0.5rem;
+}
+.link-tools .tool-remove { display: none }
+
+.joint-paper.joint-theme-default {
+    background-color:transparent;
+}

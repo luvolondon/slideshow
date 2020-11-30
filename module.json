@@ -1,0 +1,21 @@
+{
+  "name": "slideshow",
+  "title": "Slideshow JournalEntries",
+  "description": "Create Slideshows as JournalEntries and show them to the players",
+  "author": "Luvolondon",
+  "version": "0.1.0",
+  "styles": [
+    "styles/joint.css",
+    "styles/styles.css",
+    "revealjs/reset.css",
+    "revealjs/reveal.css",
+    "revealjs/theme/black.css"
+    ],
+  "packs": [],
+  "url": "https://github.com/luvolondon/slideshow",
+  "manifest": "https://raw.githubusercontent.com/luvolondon/slideshow/main/module.json",
+  "download": "https://github.com/luvolondon/slideshow/archive/v0.1.0.zip",
+  "minimumCoreVersion": "0.7.6",
+  "compatibleCoreVersion": "0.7.7",
+  "scripts": ["slideshow.js","revealjs/reveal.js","revealjs/audio.js","jointjs/lodash.js","jointjs/backbone.js","jointjs/joint.js"]
+}
