@@ -14,7 +14,7 @@ Create slideshows as journalentries and show them to your players:
 - As GM open "JournalEntry" tab and click on new "Create Slideshow Entry" button
 - Use editor to create the slides
 
-![Slideshow Editor](https://github.com/luvolondon/slideshow/blob/main/screens/screen1.jpg)
+![Slideshow Editor](https://github.com/luvolondon/slideshow/raw/master/screens/screen1.jpg)
 
 ## Editor functions
 - Right click on an existing slide to add a new slide
@@ -34,7 +34,7 @@ Caution: Don´t change the links between the slides.
 - The slideshow is shown on all player´s screens, the UserInterface on the player´s screens is mostly hidden.
 - To stop the slideshow close the GM control window
 
-![GM Control Window](https://github.com/luvolondon/slideshow/blob/main/screens/screen2.jpg)
+![GM Control Window](https://github.com/luvolondon/slideshow/raw/master/screens/screen2.jpg)
 
 # Libraries used
 - https://www.jointjs.com/ : graph editing
