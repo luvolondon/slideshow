@@ -1,6 +1,7 @@
 # slideshow
 Create slideshows as journalentries and show them to your players:
 - Each slide has it´s own audio, background image and slide content (html)
+- Slideshows are build with an in-game editor
 - Slide playback is controlled by GM
 - GM can save optional "GM notes" with each slide, notes are only shown to GM
 - JournalEntry tab has a new button "Create Slideshow Entry"
